@@ -1,0 +1,14 @@
+/home/theo/RiderProjects/Test_BI/test_BI/bin/Debug/net8.0/test_BI
+/home/theo/RiderProjects/Test_BI/test_BI/bin/Debug/net8.0/test_BI.deps.json
+/home/theo/RiderProjects/Test_BI/test_BI/bin/Debug/net8.0/test_BI.runtimeconfig.json
+/home/theo/RiderProjects/Test_BI/test_BI/bin/Debug/net8.0/test_BI.dll
+/home/theo/RiderProjects/Test_BI/test_BI/bin/Debug/net8.0/test_BI.pdb
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.GeneratedMSBuildEditorConfig.editorconfig
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.AssemblyInfoInputs.cache
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.AssemblyInfo.cs
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.csproj.CoreCompileInputs.cache
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.dll
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/refint/test_BI.dll
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.pdb
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.genruntimeconfig.cache
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/ref/test_BI.dll
