@@ -3,20 +3,36 @@
     static void Main(string[] args)
     {
         // No 1
-        // PrintYesOrOK(15);
+        System.Console.WriteLine("============== No 1 ================");
+        PrintYesOrOK(15);
+        System.Console.WriteLine();
 
         // No 2
         // A
-        // PyramidA(5);
+        System.Console.WriteLine("============== No 2 A ================");
+        PyramidA(5);
+        System.Console.WriteLine();
 
-        //B
-        // PyramidB(5);
+        // B
+        System.Console.WriteLine("============== No 2 B ================");
+        PyramidB(5);
+        System.Console.WriteLine();
 
         // C
-        // PyramidC(5);
+        System.Console.WriteLine("============== No 2 C ================");
+        PyramidC(5);
+        System.Console.WriteLine();
 
         // D
+        System.Console.WriteLine("============== No 2 D ================");
         PyramidD(5);
+        System.Console.WriteLine();
+
+        // No 3
+        System.Console.WriteLine("============== No 3 ================");
+        int[] arr = {12, 9, 13, 6, 10, 4, 7, 2};
+        SortArr(arr);
+        System.Console.WriteLine();
     }
 
     static void PrintYesOrOK(int n)
@@ -138,6 +154,29 @@
                     val = n * (j + 1) - i + 1;
                 }
             }
+        }
+    }
+
+    static void SortArr(int[] arr){
+        int count = 0;
+        for (int i = 0; i < arr.Length ; i++)
+        {
+            if (arr[i] % 3 != 0){
+                count++;
+            }
+        }
+        int?[] newArr = new int?[count];
+        int index = 0;
+        for(int i = 0; i<arr.Length; i++){
+            if (arr[i] % 3 != 0){
+                newArr[index] = arr[i];
+                index++;
+            }
+        }
+        Array.Sort(newArr);
+
+        foreach (var item in newArr){
+            System.Console.Write($"{item} ");
         }
     }
 }

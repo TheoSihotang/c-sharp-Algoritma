@@ -12,3 +12,4 @@
 /home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.pdb
 /home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.genruntimeconfig.cache
 /home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/ref/test_BI.dll
+/home/theo/RiderProjects/Test_BI/test_BI/obj/Debug/net8.0/test_BI.sourcelink.json
