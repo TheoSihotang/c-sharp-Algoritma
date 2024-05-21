@@ -136,46 +136,45 @@
     static void PyramidD(int n)
     {
 
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= n; i++) // melakukan perulangan sebanyak n
         {
-            int range = (n * 2) - (i * 2 - 1);
-            int val = i;
+            int val = i; // melakukan inisiasi untuk nilai val
             System.Console.WriteLine();
-            for (int j = 1; j <= n; j++)
+            for (int j = 1; j <= n; j++) // melakukan perulangan untuk mengisi setiap kolom
             {
                 System.Console.Write(val + "  ");
 
-                if (j % 2 == 0)
+                if (j % 2 == 0) // mengecek apakah j genap atau ganjil
                 {
-                    val = n * j + i;
+                    val = n * j + i; // jika j genap rumusnya seperti ini
                 }
                 else
                 {
-                    val = n * (j + 1) - i + 1;
+                    val = n * (j + 1) - i + 1; // jika j ganjil rumusnya seperti ini
                 }
             }
         }
     }
 
     static void SortArr(int[] arr){
-        int count = 0;
-        for (int i = 0; i < arr.Length ; i++)
+        int count = 0; // inisiasi variable untuk mengecek apakah ada angka yang tidak kelipatan 3
+        for (int i = 0; i < arr.Length ; i++) // melakukan perulangan untuk melakukan increment terhadap count
         {
             if (arr[i] % 3 != 0){
                 count++;
             }
         }
-        int?[] newArr = new int?[count];
-        int index = 0;
-        for(int i = 0; i<arr.Length; i++){
+        int?[] newArr = new int?[count]; // membuat array baru untuk menampung angka yang tidak kelipatan 3
+        int index = 0; // inisiasi index
+        for(int i = 0; i<arr.Length; i++){ // perulangan untuk membuang bilangan kelipatan 3
             if (arr[i] % 3 != 0){
                 newArr[index] = arr[i];
                 index++;
             }
         }
-        Array.Sort(newArr);
+        Array.Sort(newArr); // mengurutkan array baru
 
-        foreach (var item in newArr){
+        foreach (var item in newArr){ // perulangan untuk melakukan print terhadap array baru
             System.Console.Write($"{item} ");
         }
     }
